@@ -75,9 +75,13 @@ WSGI_APPLICATION = 'cdu.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "railway",
+        "USER": "postgres",
+        "PASSWORD": "ss7OOzxpW3ZjxUr0e7WF",
+        "HOST": "containers-us-west-182.railway.app",
+        "PORT": "6297",
     }
 }
 
