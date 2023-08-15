@@ -1,0 +1,1 @@
+web: gunicorn cdu.wsgi --log-file -
